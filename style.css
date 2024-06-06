@@ -1,0 +1,246 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Audiowide", sans-serif;
+  font-weight: bold;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 23pt;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #000000;
+  color: white;
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #ffffff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+#luxurycars {
+  color: #ffffff;
+  size: 1000px;
+}
+
+}
+
+h2 {
+  font-size: 30px;
+  color: white;
+  font-family: "Autowide" sans-serif;
+  font-variant: small-caps;
+}
+
+.img-responsive {
+  margin-left: 275px;
+}
+
+#header_logo {
+  width: 140px;
+  height: 75px;
+
+}
+
+#logo {
+  width: 30%;
+  height: 5%;
+}
+
+.goldtext {
+  color: #e6cd6b;
+  font-family: "gruppo", sans-serif;
+}
+
+.welcomerow {
+  color: #e6cd6b;
+  background-color: #e6cd6b;
+  width: 80%;
+  height: 2px;
+  border-color: #e6cd6b;
+}
+
+.gruppo-regular {
+  font-family: "Gruppo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.featured {
+  border-radius: 5px;
+  border: 3px gold;
+}
+/* Buttons in the website */
+.button {
+  color: black;
+  font-family: "Gruppo", sans-serif;
+  font-weight: bold;
+  background-color: #e6cd6b;
+  border: 0px;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+/* Image grid properties */
+.img_grid {
+  border-radius: 10px;
+  border: 3px solid #e6cd6b;
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+}
+/* Table used for the image grid */
+table,
+tr,
+td,
+th {
+  border-collapse: collapse;
+  margin: 1px;
+}
+/* List for the navigation bar */
+ul {
+  list-style-type: none;
+  margin: 0; /* TO HAVE TO SPACE UNDER THE NAV BAR   */
+  overflow: hidden; /* TO MAKE SURE THE NAVBAR DOES NOT GET COVERED BY THE HEADER */
+  background-color: #e6cd6b;
+  font-size: 20px;
+}
+li {
+  float: left; /* TO MAKE THE LIST HORIZONTAL */
+}
+li a, .dropbtn {
+  display: inline-block; /* TO MAKE THE TEXT IN A BLOCK WITH SPACE */
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none; /* TO REMOVE THE UNDERLINE EFFECT FROM THE TEXT */
+}
+li a:hover, .dropdown:hover .dropbtn { /* TO MAKE THE BACKGROUND DARKER WHEN WE HOVER ON THE NAV BAR CONTENT */
+  background-color: #c09c0c;
+}
+.dropdown-content {
+  display: none; /* TO HIDE THE DROPDOWN CONTENT */
+  position: absolute; /* TO HIDE THE BACKGROUND COLOR OF THE DROPDOWN */
+  background-color: #e6cd6b;
+  min-width: 160px; 
+  z-index: 11; /* TO MAKE SURE THAT THE HEADER AND NAV BAR COVERS THE CONTENT */
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  display: block; /* TO PUT THE DROPDOWN CONTENT IN A BLOCK */
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #c09c0c;} 
+/* WHEN THE DROPDOWN CONTENT IS HOVERED ON, THE BACKGROUND COLOR CHANGES */
+
+.dropdown:hover .dropdown-content { /* TO MAKE SURE TO START A NEW LINE IN A BLOCK FOR A NEW <a> */
+  display: block;
+}
+#welcome {
+  position: fixed; /* TO FIX THE NAVBAR ON TOP OF THE WEBPAGE */
+  top: 0; /* MARGIN OF THE TOP IS 0 */
+  width: 100%;
+  background-color: black;
+  z-index: 10; /* TO MAKE SURE NO CONTENT GOES ON TOP OF THE NAVBAR */
+}
+/* END OF THE NAV BAR PART */
+#brandsdiv {
+  margin-top: 350px;
+}
+.brandsimgleft {
+  border-radius: 10px;
+  border: 3px solid #e6cd6b;
+  width: 20%;
+  height: 20%;
+  float: left;
+  margin-left: 5%
+}
+.brandsimgright {
+  border-radius: 10px;
+  border: 3px solid #e6cd6b;
+  width: 20%;
+  height: 20%;
+  float: right;
+  margin-right: 5%
+}
+.brandprofile {
+  width: 100%;
+  display: inline;
+}
+#brandsp {
+  text-align: justify;
+  margin: 20px;
+  font-size: 20px;
+  margin-top: 40px;
+  padding-right: 20px;
+}
+
+#footer {
+  background-color: #e6cd6b;
+  z-index: 1;
+}
+.footerrow {
+  color: black;
+  background-color: black;
+  width: 90%;
+  height: 2px;
+  border-color: black;
+}
+.desc {
+  color: #e6cd6b;
+  font-family: "gruppo", sans-serif;
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
